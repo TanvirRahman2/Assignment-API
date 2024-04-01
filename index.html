@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Information</title>
+  <link rel="stylesheet" href="index.css">
+  
+  
+</head>
+<body>
+
+  <header>
+    <h1>Country Information</h1>
+  </header>
+  <nav>
+    <input type="text" id="searchInput" placeholder="Search for a country">
+    <button onclick="searchCountry()">Search</button>
+  </nav>
+
+  <main id="countryList">
+    <!-- Country cards will be dynamically added here -->
+  </main>
+
+  <footer>
+    <p>&copy; Weather Information- Tanvir Rahman Jarif-1910871</p>
+  </footer>
+
+  <div class="container">
+    <div class="search-box">
+      <input type="text" id="country" placeholder="Enter a country name">
+      <button id="search">Search</button>
+    </div>
+    <div class="weather-box" id="weather-box">
+      <!-- Weather data will be displayed here -->
+    </div>
+  </div>
+  <script src="api.js"></script>
+  
+</body>
+</html>
